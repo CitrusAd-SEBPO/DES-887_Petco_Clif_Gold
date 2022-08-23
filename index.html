@@ -380,6 +380,7 @@
             text-transform: uppercase;
             font-family: PetcoCircularTT-Bold;
             width: 221px;
+            border: 1px solid #001952;
         }
 
 
@@ -456,6 +457,7 @@
         .citrus-container .citrus-header-content .citrus-btn{
             color: #fff;
             text-decoration: none;
+            border: 1px solid #001952;
         }
 
         .text-center {
@@ -632,6 +634,22 @@
             }
         }
 
+        @media all and (min-width: 768px) {
+            .citrus-banner .citrus-btn:hover{
+                background-color: #fff;
+                color: #001952;
+                border: 1px solid #001952;
+                transition: 0.7s ease-in-out;
+            }
+
+            .citrus-container .citrus-header-content .citrus-btn:hover{
+                background-color: #fff;
+                color: #001952;
+                border: 1px solid #001952;
+                transition: 0.7s ease-in-out;
+            }
+        }
+
         @media all and (max-width: 768px) {
 
             .citrus-banner {
@@ -783,6 +801,7 @@
                 text-decoration: underline;
                 text-transform: capitalize;
                 color: #001952;
+                border: none;
             }
 
             .citrus-btn {
@@ -798,6 +817,7 @@
             .citrus-container .citrus-header-content .citrus-btn{
                 color: #001952;
                 text-decoration: underline;
+                border: none;
             }
 
             .citrus-citrus-footer-img {
